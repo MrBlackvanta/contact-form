@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import { Karla } from "next/font/google";
+import { siteUrl } from "@/app/site";
 import "./globals.css";
 
 const karla = Karla({
@@ -12,8 +13,6 @@ const karla = Karla({
 const title = "Contact Form";
 const description =
   "An accessible contact form with inline validation and a success toast — a Frontend Mentor challenge built with Next.js, TypeScript, and Tailwind CSS.";
-const siteUrl = "https://contact-form.abdelrhman-ahmed8881.workers.dev";
-
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title,
