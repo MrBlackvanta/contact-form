@@ -12,7 +12,7 @@ const karla = Karla({
 
 const title = "Contact Form";
 const description =
-  "An accessible contact form with inline validation and a success toast — a Frontend Mentor challenge built with Next.js, TypeScript, and Tailwind CSS.";
+  "An accessible contact form with inline validation, keyboard-operable controls and a success toast confirming the message was sent.";
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title,
